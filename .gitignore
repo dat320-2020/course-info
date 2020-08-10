@@ -1,0 +1,22 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+ch13-code/va
+ch14-code/ex
+ch14-code/f.o
+ch14-code/scpy
+ch19-code/ch19-code
+ch33/select
+ch39/readdir
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# VSCode directory
+.vscode
