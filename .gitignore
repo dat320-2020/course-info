@@ -11,6 +11,8 @@ ch14-code/scpy
 ch19-code/ch19-code
 ch33/select
 ch39/readdir
+gotalk
+lecture-plan
 
 # Test binary, build with `go test -c`
 *.test

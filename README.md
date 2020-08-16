@@ -10,3 +10,5 @@ Course Information for DAT320 Operating Systems and Systems Programming
 - [Code editors](setup-editors.md)
 - [Windows Specific: Guide to Installing Windows Subsystem for Linux (WSL)](setup-wsl.md)
 - [Syllabus](syllabus.md)
+- [Lecture Plan](lecture-plan.md)
+- [Lab Plan](lab-plan.md)
