@@ -3,6 +3,8 @@
 This section give step-by-step instructions on how to submit assignments.
 In the following, you are expected to run commands from a terminal environment.
 
+Here are two videos describing these steps: [Part 1 (~10 minutes)](https://youtu.be/Ewoax8goysg) and [Part 2 (~19 minutes)](https://youtu.be/rWrrrmgur4g).
+
 - On macOS, Terminal can be started via Spotlight, by typing the first few letters of `terminal`.
 - On Ubuntu Linux, you can click on the Activities item at the top left of the screen, then type the first few letters of `terminal`.
 - On Windows, follow these [instructions](setup-wsl.md) to install the Windows Subsystem for Linux, if you haven't done so already.

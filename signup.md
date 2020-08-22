@@ -34,6 +34,7 @@ You need to sign up for a GitHub account to get access to the needed course mate
 ## Autograder Registration
 
 Follow the steps below to register and sign up for the course on Autograder.
+Here are two short videos describing these steps: [Part 1](https://youtu.be/3KJm4ABvTAo) and [Part 2](https://youtu.be/kMyH_-8xMGc).
 
 1. Go to [GitHub](http://github.com) and register.
    A GitHub account is required to sign in to Autograder.
@@ -53,13 +54,17 @@ Follow the steps below to register and sign up for the course on Autograder.
 
 3. Wait for the teaching staff to confirm your Autograder registration.
 
-4. You will then be invited to the course organization on GitHub.
-   Navigate to the [assignments](https://github.com/dat320-2020/assignments) repository and accept the invitation.
+4. You will then be invited to the course organization on GitHub and two separate repositories.
+   You will need to navigate to each of these links and accept these invitations:
 
-   An invitation will also be sent to the email address associated with your GitHub account.
+   - Navigate to the course organization [dat320-2020](https://github.com/dat320-2020) accept the invitation.
+   - Navigate to the [assignments](https://github.com/dat320-2020/assignments) repository and accept the invitation.
+   - Navigate to your private <https://github.com/dat320-2020/username-labs> repository and accept the invitation. Remember to replace `username` in this link with your own GitHub `username`.
+
+   Several invitation emails will also be sent to the email address associated with your GitHub account.
    However, emails from GitHub can sometimes take a while to arrive.
 
-5. Once you have accepted the invitation, you will get your own repository under `dat320-2020`, which is the course's organization on GitHub.
+5. Once you have accepted the invitations, you will get your own repository under `dat320-2020`, which is the course's organization on GitHub.
 
 ## Discord DAT320 Server Registration
 
