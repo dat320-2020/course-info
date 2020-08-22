@@ -1,5 +1,8 @@
 # Lecture Plan 2020
 
+Each video recorded is linked below.
+You may also be interested in this [YouTube playlist](https://www.youtube.com/playlist?list=PLEHv3FhiBSaaQk_RR9TPFnA7Uhgo6GF1F).
+
 | W  | Date  | Day | Ch | Topics                                      | Deadline  |
 |----|-------|-----|----|---------------------------------------------|-----------|
 | 34 | 19.08 | Wed |    | [Course Intro and Tutorials][1]             |           |
