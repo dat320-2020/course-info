@@ -10,7 +10,7 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 | 34 |       | Wed | 4  | [Abstraction: The Process][3]               |           |
 | 34 | 21.08 | Fri | 5  | [Process API][4]                            |           |
 | 34 |       | Fri | 6  | [Mechanism: Limited Direct Execution][5]    |           |
-| 35 | 26.08 | Wed |    | Introduction to Go programming         |           |
+| 35 | 26.08 | Wed |    | [Introduction to Go programming][6]         |           |
 | 35 |       | Wed | 7  | Scheduling: Introduction               |           |
 | 35 |       | Wed | 8  | Scheduling: Multi-Level Feedback Queue |           |
 | 35 | 28.08 | Fri | 9  | Scheduling: Proportional Share         | Lab 1 & 2 |
@@ -65,3 +65,4 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 [3]: https://youtu.be/ok-nbl2wFbM
 [4]: https://youtu.be/Ab3rPs3l-5I
 [5]: https://youtu.be/32i0xvcYuJo
+[6]: https://youtu.be/vqq96BG9aOo

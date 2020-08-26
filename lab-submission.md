@@ -88,17 +88,25 @@ Here are two videos describing these steps: [Part 1 (~10 minutes)](https://youtu
 ## Final Submission of LabX
 
 1. When you are finished with all the tasks for some `labX`, and you wish to submit,
-   make sure you commit your changes as follows:
+   you may issue a commit message as follows to indicate that you are done:
 
    ```console
    git commit -m "username labX submission"
    ```
 
-   in the first line of the commit message, where `username` is your GitHub username and `X` with the lab number.
+   The above text should be on the first line of the commit message, where `username` is your GitHub username and `X` with the lab number.
 
-   Your slip days usage will be calculated based on when you pushed this commit to GitHub.
+   If you have no changes to commit, then you can use:
+
+   ```console
+   git commit --allow-empty -m "username lab1 submission"
+   ```
+
    If there are any issues you want us to pay attention to, please add those comments after an empty line in the commit message.
    If you later find a mistake and want to resubmit, please use `username labX resubmission` as the commit message.
+   Note that these commit messages are not used by Autograder, they are only used to identify your lab submission commits when we do manual review.
+
+   **Note:** Your slip days usage is calculated based on the deadline of `labX` and the time when you pushed the last commit to GitHub, that touched any of the files in the `labX` folder.
 
 2. Push your changes to GitHub using:
 
