@@ -2,9 +2,9 @@
 
 | Lab | Topic                                                     | Grading          | Approval             | Submission              | Deadline          |
 |:---:|-----------------------------------------------------------|------------------|----------------------|-------------------------|-------------------|
-| 1 | [Introduction to Unix][1] | Pass/fail | Automatic | Individually | August 28 |
-| 2 | [Introduction to the C Programming Language][2] | Pass/fail | Automatic | Individually | August 28 |
-| 3 | [Introduction to Go Programming][3] | Pass/fail | Automatic | Individually | September 4 |
+| 1 | [Introduction to Unix][1] | Pass/fail | Automatic | Individually | August 30 |
+| 2 | [Introduction to the C Programming Language][2] | Pass/fail | Automatic | Individually | August 30 |
+| 3 | [Introduction to Go Programming][3] | Pass/fail | Automatic | Individually | September 6 |
 | 4 | [Scheduling][4] | Pass/fail | TA Approval | Individually | September 11 |
 | 5 | [Memory Management][5] | Pass/fail | Automatic | Individually | September 25 |
 | 6 | [Concurrency: Data Race Detection and Profiling][6] | Pass/fail | TA Approval | Individually | October 2 |
