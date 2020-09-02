@@ -32,6 +32,8 @@ Weekends and holidays **are included** in your slip day budget.
 
 *Be advised that it is the date on your lab's submission as viewed on GitHub that counts towards the slip days.*
 
+**No special extensions will be given if you have exhausted all your slip days, but we will show some flexibility towards minor overruns.**
+
 ## Assignments
 
 ### Individual Assignments

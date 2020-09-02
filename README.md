@@ -7,6 +7,7 @@ Course Information for DAT320 Operating Systems and Systems Programming
 - [Syllabus](syllabus.md)
 - [Lecture Plan](lecture-plan.md)
 - [Lab Plan](lab-plan.md)
+- [Lab Assistance Schedule](lab-assistance.md)
 - [Sign Up -- Do It Now](signup.md)
 - [Get Unix Account -- Do It Now](setup-unix.md)
 - [Description of Lab Submission Process](lab-submission.md)
