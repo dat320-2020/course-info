@@ -4,10 +4,10 @@
 *.dll
 *.so
 *.dylib
-ch13-code/va
+ch13/va
 ch14-code/ex
 ch14-code/f.o
-ch14-code/scpy
+ch14/strcpy
 ch19-code/ch19-code
 ch33/select
 ch39/readdir

@@ -3,20 +3,20 @@
 Each video recorded is linked below.
 You may also be interested in this [YouTube playlist](https://www.youtube.com/playlist?list=PLEHv3FhiBSaaQk_RR9TPFnA7Uhgo6GF1F).
 
-| W  | Date  | Day | Ch | Topics                                      | Deadline  |
-|----|-------|-----|----|---------------------------------------------|-----------|
-| 34 | 19.08 | Wed |    | [Course Intro and Tutorials][1]             |           |
-| 34 |       | Wed | 2  | [Introduction to Operating Systems][2]      |           |
-| 34 |       | Wed | 4  | [Abstraction: The Process][3]               |           |
-| 34 | 21.08 | Fri | 5  | [Process API][4]                            |           |
-| 34 |       | Fri | 6  | [Mechanism: Limited Direct Execution][5]    |           |
-| 35 | 26.08 | Wed |    | [Introduction to Go programming][6]         |           |
-| 35 |       | Wed | 7  | [Scheduling: Introduction][7]               |           |
-| 35 |       | Wed | 8  | [Scheduling: Multi-Level Feedback Queue][8] |           |
-| 35 | 28.08 | Fri | 9  | [Scheduling: Proportional Share][9]         | Lab 1 & 2 |
-| 36 | 02.09 | Wed |    | Organizing Go Code                     |           |
-| 36 |       | Wed | 13 | Abstraction: Address Spaces            |           |
-| 36 |       | Wed | 14 | Memory API                             |           |
+| W  | Date  | Day | Ch | Topics                                       | Deadline  |
+|----|-------|-----|----|----------------------------------------------|-----------|
+| 34 | 19.08 | Wed |    | [Course Intro and Tutorials][1]              |           |
+| 34 |       | Wed | 2  | [Introduction to Operating Systems][2]       |           |
+| 34 |       | Wed | 4  | [Abstraction: The Process][3]                |           |
+| 34 | 21.08 | Fri | 5  | [Process API][4]                             |           |
+| 34 |       | Fri | 6  | [Mechanism: Limited Direct Execution][5]     |           |
+| 35 | 26.08 | Wed |    | [Introduction to Go programming][6]          |           |
+| 35 |       | Wed | 7  | [Scheduling: Introduction][7]                |           |
+| 35 |       | Wed | 8  | [Scheduling: Multi-Level Feedback Queue][8]  |           |
+| 35 | 28.08 | Fri | 9  | [Scheduling: Proportional Share][9]          | Lab 1 & 2 |
+| 36 | 02.09 | Wed |    | [Organizing Go Code][10]                     |           |
+| 36 |       | Wed | 13 | [Abstraction: Address Spaces][11]            |           |
+| 36 |       | Wed | 14 | [Memory API][12]                             |           |
 | 36 |       | Fri | 15 | Mechanism: Address Translation         |           |
 | 36 | 05.09 | Fri | 16 | Segmentation                           | Lab 3     |
 | 37 | 09.09 | Wed |    |                                        |           |
@@ -69,3 +69,6 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 [7]: https://youtu.be/YHK9xqOsQz0
 [8]: https://youtu.be/gb93s6kWLLM
 [9]: https://youtu.be/jO6wUeTa0lE
+[10]: https://youtu.be/cJmYVEx__c8
+[11]: https://youtu.be/VZQkKpY8pB8
+[12]: https://youtu.be/cPBYxwNgzYU

@@ -7,10 +7,10 @@ import (
 	"time"
 )
 
-type lotteryScheduler interface {
-	Schedule()
-	Add(job)
-}
+// type lotteryScheduler interface {
+// 	Schedule()
+// 	Add(job)
+// }
 
 type jobList struct {
 	head *job
