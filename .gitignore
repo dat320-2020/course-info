@@ -5,10 +5,10 @@
 *.so
 *.dylib
 ch13/va
-ch14-code/ex
-ch14-code/f.o
+ch14/ex
+ch14/f.o
 ch14/strcpy
-ch19-code/ch19-code
+ch15/func.o
 ch33/select
 ch39/readdir
 gotalk

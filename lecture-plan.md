@@ -17,8 +17,8 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 | 36 | 02.09 | Wed |    | [Organizing Go Code][10]                     |           |
 | 36 |       | Wed | 13 | [Abstraction: Address Spaces][11]            |           |
 | 36 |       | Wed | 14 | [Memory API][12]                             |           |
-| 36 |       | Fri | 15 | Mechanism: Address Translation         |           |
-| 36 | 05.09 | Fri | 16 | Segmentation                           | Lab 3     |
+| 36 |       | Fri | 15 | [Mechanism: Address Translation][13]         |           |
+| 36 | 05.09 | Fri | 16 | [Segmentation][14]                           | Lab 3     |
 | 37 | 09.09 | Wed |    |                                        |           |
 | 37 |       | Wed | 17 | Free-Space Management                  |           |
 | 37 |       | Wed | 18 | Paging: Introduction                   |           |
@@ -72,3 +72,5 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 [10]: https://youtu.be/cJmYVEx__c8
 [11]: https://youtu.be/VZQkKpY8pB8
 [12]: https://youtu.be/cPBYxwNgzYU
+[13]: https://youtu.be/CZ3KYVV9X08
+[14]: https://youtu.be/Riv_PmvEBc0
