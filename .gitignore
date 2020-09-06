@@ -4,9 +4,8 @@
 *.dll
 *.so
 *.dylib
+ch05/p4.output
 ch13/va
-ch14/ex
-ch14/f.o
 ch14/strcpy
 ch15/func.o
 ch33/select
