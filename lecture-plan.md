@@ -19,9 +19,9 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 | 36 |       | Wed | 14 | [Memory API][12]                             |           |
 | 36 |       | Fri | 15 | [Mechanism: Address Translation][13]         |           |
 | 36 | 05.09 | Fri | 16 | [Segmentation][14]                           | Lab 3     |
-| 37 | 09.09 | Wed |    |                                        |           |
-| 37 |       | Wed | 17 | Free-Space Management                  |           |
-| 37 |       | Wed | 18 | Paging: Introduction                   |           |
+| 37 | 09.09 | Wed |    |                                              |           |
+| 37 |       | Wed | 17 | [Free-Space Management][15]                  |           |
+| 37 |       | Wed | 18 | [Paging: Introduction][16] [Part 2][17]      |           |
 | 37 | 11.09 | Fri | 19 | Paging: Faster Translation (TLBs)      | Lab 4     |
 | 38 | 16.09 | Wed |    |                                        |           |
 | 38 |       | Wed | 20 | Paging: Smaller Tables                 |           |
@@ -74,3 +74,6 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 [12]: https://youtu.be/cPBYxwNgzYU
 [13]: https://youtu.be/CZ3KYVV9X08
 [14]: https://youtu.be/Riv_PmvEBc0
+[15]: https://youtu.be/AbL6Imqr44g
+[16]: https://youtu.be/8dUtAVRqKyI
+[17]: https://youtu.be/AtqgKOmNwrU
