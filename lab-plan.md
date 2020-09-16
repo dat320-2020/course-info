@@ -7,7 +7,7 @@
 | 3 | [Introduction to Go Programming][3] | Pass/fail | Automatic | Individually | September 11 |
 | 4 | [Scheduling][4] | Pass/fail | TA Approval | Individually | September 25 |
 | 5 | [Memory Management][5] | Pass/fail | Automatic | Individually | October 9 |
-| 6 | [Concurrency: Data Race Detection and Profiling][6] | Pass/fail | TA Approval | Individually | October 23 |
+| 6 | [Concurrency and Parallelism][6] | Pass/fail | TA Approval | Individually | October 23 |
 | 7 | [Introduction to Docker][7] | Pass/fail | TA Approval | Individually | October 30 |
 | 8 | [Remote Procedure Calls and Common Interfaces][8] | Pass/fail | TA Approval | Group | November 13 |
 
