@@ -25,8 +25,8 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 | 37 | 11.09 | Fri | 19 | [Paging: Faster Translation (TLBs)][18] [Part 2][19] | Lab 4     |
 | 38 | 16.09 | Wed |    |                                                      |           |
 | 38 |       | Wed | 20 | [Paging: Smaller Tables][20] [Part 2][21]            |           |
-| 38 |       | Wed | 21 | Beyond Physical Memory: Mechanisms     |           |
-| 38 | 18.09 | Fri | 22 | Beyond Physical Memory: Policies       |           |
+| 38 |       | Wed | 21 | [Beyond Physical Memory: Mechanisms][22]             |           |
+| 38 | 18.09 | Fri | 22 | [Beyond Physical Memory: Policies][23] [Part 2][24]  |           |
 | 39 | 23.09 | Wed |    |                                        |           |
 | 39 |       | Wed | 23 | Complete Virtual Memory Systems        |           |
 | 39 |       | Wed | 26 | Concurrency: Introduction              |           |
@@ -81,3 +81,6 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 [19]: https://youtu.be/_FLZplf8JOM
 [20]: https://youtu.be/iPIXEMzPq-s
 [21]: https://youtu.be/iRfnZVFYTRE
+[22]: https://youtu.be/iyDSULxT4hI
+[23]: https://youtu.be/dboKNgOpDFo
+[24]: https://youtu.be/cNj1IZrizaU
