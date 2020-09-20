@@ -29,6 +29,12 @@ Obviously, your code must compile and it must be formatted according to the `gof
 We may provide some tests to help ensure appropriate formatting.
 If you submit code that does not compile, you will receive the grade F.
 
+## Plagiarism
+
+The submitted code of all students will be checked for plagiarism.
+
+## Tips for Preparing
+
 Here are some tips for preparing for the exam.
 
 1. Ensure that your laptop is correctly configured to work with GitHub and your preferred code editor.
