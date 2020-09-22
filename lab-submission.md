@@ -163,6 +163,33 @@ Here are two videos describing these steps: [Part 1 (~10 minutes)](https://youtu
    Remember to remove the lines that start with `>>>>`, `====`, and `<<<<<`.
    This is necessary to commit your changes, once the conflict has been resolved.
 
+## Working with Group Assignments
+
+To work on group assignments, you need to clone your group's repository to your own machine, and pull the `assignments` repository into the group's repository.
+In the instructions below, replace `groupname` with your group's repository name.
+We assume you have already created the `dat320-2020` directory on your machine.
+
+```console
+cd $HOME/dat320-2020
+git clone https://github.com/dat320-2020/groupname
+cd groupname
+git remote add course-assignments https://github.com/dat320-2020/assignments
+git pull course-assignments master
+```
+
+All group members will have write access to the `groupname` repository, and it is this repository that your solutions should be pushed to.
+Autograder will run our tests against your `groupname` repository.
+
+Remember that you should run:
+
+```console
+git pull course-assignments master
+```
+
+Every once in a while, to check if we have posted updates to the assignments, including new assignments.
+
+Read the next section, for instructions on pulling in changes from your group partners.
+
 ## Updating Local Working Copy with Changes from Other Group Members
 
 1. If another group member has made changes that has been pushed to GitHub,
