@@ -18,47 +18,39 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 | 36 |       | Wed | 13 | [Abstraction: Address Spaces][11]                    |           |
 | 36 |       | Wed | 14 | [Memory API][12]                                     |           |
 | 36 |       | Fri | 15 | [Mechanism: Address Translation][13]                 |           |
-| 36 | 05.09 | Fri | 16 | [Segmentation][14]                                   | Lab 3     |
-| 37 | 09.09 | Wed |    |                                                      |           |
-| 37 |       | Wed | 17 | [Free-Space Management][15]                          |           |
+| 36 | 05.09 | Fri | 16 | [Segmentation][14]                                   |           |
+| 37 | 09.09 | Wed | 17 | [Free-Space Management][15]                          |           |
 | 37 |       | Wed | 18 | [Paging: Introduction][16] [Part 2][17]              |           |
-| 37 | 11.09 | Fri | 19 | [Paging: Faster Translation (TLBs)][18] [Part 2][19] | Lab 4     |
-| 38 | 16.09 | Wed |    |                                                      |           |
-| 38 |       | Wed | 20 | [Paging: Smaller Tables][20] [Part 2][21]            |           |
+| 37 | 11.09 | Fri | 19 | [Paging: Faster Translation (TLBs)][18] [Part 2][19] | Lab 3     |
+| 38 | 16.09 | Wed | 20 | [Paging: Smaller Tables][20] [Part 2][21]            |           |
 | 38 |       | Wed | 21 | [Beyond Physical Memory: Mechanisms][22]             |           |
 | 38 | 18.09 | Fri | 22 | [Beyond Physical Memory: Policies][23] [Part 2][24]  |           |
-| 39 | 23.09 | Wed |    |                                        |           |
-| 39 |       | Wed | 23 | Complete Virtual Memory Systems        |           |
-| 39 |       | Wed | 26 | Concurrency: Introduction              |           |
-| 39 | 25.09 | Fri | 27 | Thread API                             | Lab 5     |
+| 39 | 23.09 | Wed | 23 | [Complete Virtual Memory Systems][25] [Part 2][26]   |           |
+| 39 |       | Wed | 23 | [The Mystery of O(N^2) Matrix Traverse (21:58)][27]  |           |
+| 39 |       | Wed | 23 | [Buffer Overflow (17:30)][28]                        |           |
+| 39 |       | Wed | 23 | [Spectre & Meltdown (13:44)][29]                     |           |
+| 39 |       | Wed | 26 | [Concurrency: Introduction][30] [Part 2][31]         |           |
+| 39 | 25.09 | Fri | 27 | [Thread API][32] [Part 2][33]                        | Lab 4     |
 | 40 | 30.09 | Wed |    | Concurrency in Go                      |           |
 | 40 |       | Wed | 28 | Locks                                  |           |
 | 40 |       | Wed | 29 | Lock-based Concurrent Data Structures  |           |
-| 40 | 02.10 | Fri | 30 | Condition Variables                    | Lab 6     |
+| 40 | 02.10 | Fri | 30 | Condition Variables                    |           |
 | 41 | 07.10 | Wed | 31 | Semaphores                             |           |
 | 41 |       | Wed | 32 | Common Concurrency Problems            |           |
 | 41 |       | Wed | 33 | Event-based Concurrency                |           |
-| 41 | 09.10 | Fri |    | Network Programming with gRPC in Go    | Lab 7     |
-| 42 | 14.10 | Wed |    |                                        |           |
-| 42 |       | Wed | 10 | Multiprocessor Scheduling              |           |
+| 41 | 09.10 | Fri |    | Network Programming with gRPC in Go    | Lab 5     |
+| 42 | 14.10 | Wed | 10 | Multiprocessor Scheduling              |           |
 | 42 |       | Wed | 39 | Files and Directories                  |           |
 | 42 | 16.10 | Fri | 40 | File System Implementation             |           |
-| 43 | 21.10 | Wed |    |                                        |           |
-| 43 |       | Wed | 48 | Distributed Systems                    |           |
+| 43 | 21.10 | Wed | 48 | Distributed Systems                    |           |
 | 43 |       | Wed | 49 | Sun's Network File System              |           |
-| 43 | 23.10 | Fri |    |                                        | Lab 8     |
+| 43 | 23.10 | Fri |    |                                        | Lab 6     |
 | 44 | 28.10 | Wed |    |                                        |           |
-| 44 |       | Wed |    |                                        |           |
-| 44 |       | Wed |    |                                        |           |
-| 44 | 30.10 | Fri |    |                                        |           |
+| 44 | 30.10 | Fri |    |                                        | Lab 7     |
 | 45 | 04.11 | Wed |    |                                        |           |
-| 45 |       | Wed |    |                                        |           |
-| 45 |       | Wed |    |                                        |           |
 | 45 | 06.11 | Fri |    |                                        |           |
 | 46 | 11.11 | Wed |    |                                        |           |
-| 46 |       | Wed |    |                                        |           |
-| 46 |       | Wed |    |                                        |           |
-| 46 | 13.11 | Fri |    |                                        | Lab 9     |
+| 46 | 13.11 | Fri |    |                                        | Lab 8     |
 
 [1]: https://youtu.be/oORmvjot6wc
 [2]: https://youtu.be/UVpbQnaagYE
@@ -84,3 +76,12 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 [22]: https://youtu.be/iyDSULxT4hI
 [23]: https://youtu.be/dboKNgOpDFo
 [24]: https://youtu.be/cNj1IZrizaU
+[25]: https://not-recorded.yet
+[26]: https://youtu.be/q-C2OhlIrlk
+[27]: https://youtu.be/rtfHdM6XSV0
+[28]: https://youtu.be/1S0aBV-Waeo
+[29]: https://youtu.be/I5mRwzVvFGE
+[30]: https://youtu.be/enWyVjihK3c
+[31]: https://youtu.be/B5MUHjFfV7w
+[32]: https://youtu.be/ERS5CHWq5DI
+[33]: https://not-recorded.yet
