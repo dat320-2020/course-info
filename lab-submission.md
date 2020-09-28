@@ -171,9 +171,9 @@ We assume you have already created the `dat320-2020` directory on your machine.
 
 ```console
 cd $HOME/dat320-2020
-git clone https://github.com/dat320-2020/groupname
+git clone git@github.com:dat320-2020/groupname.git
 cd groupname
-git remote add course-assignments https://github.com/dat320-2020/assignments
+git remote add course-assignments git@github.com:dat320-2020/assignments
 git pull course-assignments master
 ```
 

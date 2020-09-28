@@ -19,6 +19,14 @@ See also [Backup Plan](#backup-plan) below.
 
 The exam tasks will mainly be Go programming, following a similar approach to that of the lab assignments.
 My objective will be to develop small simulated pieces of an operating system, where I will draw inspiration from the text book syllabus.
+The idea is to test your understanding of the theory and ability to translate that theory into working code.
+Obviously, the amount of work involved in coding a working solution to certain problems limits the breath of topics that can be covered.
+The plan is to ask for implementations of one or more such assignments following this template:
+
+- small pieces of OS functionality as part of a given framework, typically 1-3 functions per assignment
+- small standalone functions outside a framework
+- a larger assignment with looser requirements that require implementations of several structs and how to connect them
+
 I may also use the existing lab assignments as template for you to build on, so it may payoff to work extra hard to understand the lab assignments.
 
 During the exam, you will not have the benefit of Autograder's feedback, nor will we provide local tests.
@@ -27,9 +35,14 @@ To that end, it is important that you follow the instructions given in the exam 
 For example, if you change a function signature to something unexpected, it may break our checks, which could negatively impact your grade.
 Obviously, your code must compile and it must be formatted according to the `gofmt` tool.
 We may provide some tests to help ensure appropriate formatting.
-If you submit code that does not compile, you will receive the grade F.
 
-## Plagiarism
+### Expectations
+
+We expect that your submitted code compiles, runs and can be checked by our tests.
+However, if your code does not compile, you can write a solution sketch for an assignment that will be evaluated manually.
+This will result in a 50 % lower grade on that assignment.
+
+### Plagiarism
 
 The submitted code of all students will be checked for plagiarism.
 

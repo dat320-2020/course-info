@@ -3,34 +3,34 @@
 Each video recorded is linked below.
 You may also be interested in this [YouTube playlist](https://www.youtube.com/playlist?list=PLEHv3FhiBSaaQk_RR9TPFnA7Uhgo6GF1F).
 
-| W  | Date  | Day | Ch | Topics                                               | Deadline  |
-|----|-------|-----|----|------------------------------------------------------|-----------|
-| 34 | 19.08 | Wed |    | [Course Intro and Tutorials][1]                      |           |
-| 34 |       | Wed | 2  | [Introduction to Operating Systems][2]               |           |
-| 34 |       | Wed | 4  | [Abstraction: The Process][3]                        |           |
-| 34 | 21.08 | Fri | 5  | [Process API][4]                                     |           |
-| 34 |       | Fri | 6  | [Mechanism: Limited Direct Execution][5]             |           |
-| 35 | 26.08 | Wed |    | [Introduction to Go programming][6]                  |           |
-| 35 |       | Wed | 7  | [Scheduling: Introduction][7]                        |           |
-| 35 |       | Wed | 8  | [Scheduling: Multi-Level Feedback Queue][8]          |           |
-| 35 | 28.08 | Fri | 9  | [Scheduling: Proportional Share][9]                  | Lab 1 & 2 |
-| 36 | 02.09 | Wed |    | [Organizing Go Code][10]                             |           |
-| 36 |       | Wed | 13 | [Abstraction: Address Spaces][11]                    |           |
-| 36 |       | Wed | 14 | [Memory API][12]                                     |           |
-| 36 |       | Fri | 15 | [Mechanism: Address Translation][13]                 |           |
-| 36 | 05.09 | Fri | 16 | [Segmentation][14]                                   |           |
-| 37 | 09.09 | Wed | 17 | [Free-Space Management][15]                          |           |
-| 37 |       | Wed | 18 | [Paging: Introduction][16] [Part 2][17]              |           |
-| 37 | 11.09 | Fri | 19 | [Paging: Faster Translation (TLBs)][18] [Part 2][19] | Lab 3     |
-| 38 | 16.09 | Wed | 20 | [Paging: Smaller Tables][20] [Part 2][21]            |           |
-| 38 |       | Wed | 21 | [Beyond Physical Memory: Mechanisms][22]             |           |
-| 38 | 18.09 | Fri | 22 | [Beyond Physical Memory: Policies][23] [Part 2][24]  |           |
-| 39 | 23.09 | Wed | 23 | [Complete Virtual Memory Systems][25] [Part 2][26]   |           |
-| 39 |       | Wed | 23 | [The Mystery of O(N^2) Matrix Traverse (21:58)][27]  |           |
-| 39 |       | Wed | 23 | [Buffer Overflow (17:30)][28]                        |           |
-| 39 |       | Wed | 23 | [Spectre & Meltdown (13:44)][29]                     |           |
-| 39 |       | Wed | 26 | [Concurrency: Introduction][30] [Part 2][31]         |           |
-| 39 | 25.09 | Fri | 27 | [Thread API][32] [Part 2][33]                        | Lab 4     |
+| W  | Date  | Day | Ch | Topics                                                | Deadline  |
+|----|-------|-----|----|-------------------------------------------------------|-----------|
+| 34 | 19.08 | Wed |    | [Course Intro and Tutorials][1]                       |           |
+| 34 |       | Wed | 2  | [Introduction to Operating Systems][2]                |           |
+| 34 |       | Wed | 4  | [Abstraction: The Process][3]                         |           |
+| 34 | 21.08 | Fri | 5  | [Process API][4]                                      |           |
+| 34 |       | Fri | 6  | [Mechanism: Limited Direct Execution][5]              |           |
+| 35 | 26.08 | Wed |    | [Introduction to Go programming][6]                   |           |
+| 35 |       | Wed | 7  | [Scheduling: Introduction][7]                         |           |
+| 35 |       | Wed | 8  | [Scheduling: Multi-Level Feedback Queue][8]           |           |
+| 35 | 28.08 | Fri | 9  | [Scheduling: Proportional Share][9]                   | Lab 1 & 2 |
+| 36 | 02.09 | Wed |    | [Organizing Go Code][10]                              |           |
+| 36 |       | Wed | 13 | [Abstraction: Address Spaces][11]                     |           |
+| 36 |       | Wed | 14 | [Memory API][12]                                      |           |
+| 36 |       | Fri | 15 | [Mechanism: Address Translation][13]                  |           |
+| 36 | 05.09 | Fri | 16 | [Segmentation][14]                                    |           |
+| 37 | 09.09 | Wed | 17 | [Free-Space Management][15]                           |           |
+| 37 |       | Wed | 18 | [Paging: Introduction][16], [Part 2][17]              |           |
+| 37 | 11.09 | Fri | 19 | [Paging: Faster Translation (TLBs)][18], [Part 2][19] | Lab 3     |
+| 38 | 16.09 | Wed | 20 | [Paging: Smaller Tables][20], [Part 2][21]            |           |
+| 38 |       | Wed | 21 | [Beyond Physical Memory: Mechanisms][22]              |           |
+| 38 | 18.09 | Fri | 22 | [Beyond Physical Memory: Policies][23], [Part 2][24]  |           |
+| 39 | 23.09 | Wed | 23 | [Complete Virtual Memory Systems][25], [Part 2][26]   |           |
+| 39 |       | Wed | 23 | [The Mystery of O(N^2) Matrix Traverse (21:58)][27]   |           |
+| 39 |       | Wed | 23 | [Buffer Overflow (17:30)][28]                         |           |
+| 39 |       | Wed | 23 | [Spectre & Meltdown (13:44)][29]                      |           |
+| 39 |       | Wed | 26 | [Concurrency: Introduction][30], [Part 2][31]         |           |
+| 39 | 25.09 | Fri | 27 | [Thread API][32], [Part 2][33]                        | Lab 4     |
 | 40 | 30.09 | Wed |    | Concurrency in Go                      |           |
 | 40 |       | Wed | 28 | Locks                                  |           |
 | 40 |       | Wed | 29 | Lock-based Concurrent Data Structures  |           |
