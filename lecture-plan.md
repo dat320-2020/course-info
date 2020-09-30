@@ -31,8 +31,9 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 | 39 |       | Wed | 23 | [Spectre & Meltdown (13:44)][29]                      |           |
 | 39 |       | Wed | 26 | [Concurrency: Introduction][30], [Part 2][31]         |           |
 | 39 | 25.09 | Fri | 27 | [Thread API][32], [Part 2][33]                        | Lab 4     |
-| 40 | 30.09 | Wed |    | Concurrency in Go                      |           |
-| 40 |       | Wed | 28 | Locks                                  |           |
+| 40 | 30.09 | Wed |    | [Rob Pike: Go Concurrency Patterns][34]               |           |
+| 40 |       | Wed |    | [Live Coding: Shared Integer w/Mutual Exclusion][35]  |           |
+| 40 |       | Wed | 28 | [Locks][36], [Part 2][37]                             |           |
 | 40 |       | Wed | 29 | Lock-based Concurrent Data Structures  |           |
 | 40 | 02.10 | Fri | 30 | Condition Variables                    |           |
 | 41 | 07.10 | Wed | 31 | Semaphores                             |           |
@@ -76,7 +77,7 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 [22]: https://youtu.be/iyDSULxT4hI
 [23]: https://youtu.be/dboKNgOpDFo
 [24]: https://youtu.be/cNj1IZrizaU
-[25]: https://not-recorded.yet
+[25]: https://youtu.be/Aw1fkkj6ymQ
 [26]: https://youtu.be/q-C2OhlIrlk
 [27]: https://youtu.be/rtfHdM6XSV0
 [28]: https://youtu.be/1S0aBV-Waeo
@@ -84,4 +85,8 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 [30]: https://youtu.be/enWyVjihK3c
 [31]: https://youtu.be/B5MUHjFfV7w
 [32]: https://youtu.be/ERS5CHWq5DI
-[33]: https://not-recorded.yet
+[33]: https://youtu.be/Rcxt7UAit8Q
+[34]: https://youtu.be/f6kdp27TYZs
+[35]: https://youtu.be/5jkAxITBTVM
+[36]: https://youtu.be/AiaWgIreiCY
+[37]: https://not-recorded.yet
