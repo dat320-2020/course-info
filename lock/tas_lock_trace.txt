@@ -1,0 +1,21 @@
+******************************************************************
+Thread 1 example when lock free:
+
+    l.flag = 0   // lock is free since flag is 0
+    TASLock()
+        TestAndSet(&l.flag, new=1)
+            old := l.flag = 0
+            l.flag (*oldPtr) = new = 1
+            return 0  // old = 0 since lock was free
+    Thread 1 got the lock
+
+******************************************************************
+Thread 1 example when lock is already acquired by another thread:
+
+    l.flag = 1   // lock is not free since flag is 1
+    TASLock()
+        TestAndSet(&l.flag, new=1)
+            old := l.flag = 1
+            l.flag (*oldPtr) = new = 1  // setting l.flag to 1; it doesn't matter since it was already 1
+            return 1  // old = 1 since lock was already taken
+        Thread 1 spins (waiting for lock to be released)
