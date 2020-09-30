@@ -22,6 +22,21 @@ Here are two videos describing these steps: [Part 1 (~10 minutes)](https://youtu
    In this guide we will use `$HOME/dat320-2020` as the workspace.
    Do the following making sure to replace `username` with your GitHub user name:
 
+   Alternative 1 (preferred):
+   (These steps requires that you have already set up your GitHub user with SSH keys.)
+
+   ```console
+   mkdir $HOME/dat320-2020
+   cd $HOME/dat320-2020
+   git clone git@github.com:dat320-2020/username-labs assignments
+   cd assignments
+   git remote add course-assignments git@github.com:dat320-2020/assignments
+   git pull course-assignments master
+   ```
+
+   Alternative 2:
+   (These steps will require that you type your GitHub password every time you access your GitHub repository.)
+
    ```console
    mkdir $HOME/dat320-2020
    cd $HOME/dat320-2020
