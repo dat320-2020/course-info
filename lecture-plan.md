@@ -34,11 +34,11 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 | 40 | 30.09 | Wed |    | [Rob Pike: Go Concurrency Patterns][34]                    |           |
 | 40 |       | Wed |    | [Live Coding: Shared Integer w/Mutual Exclusion][35]       |           |
 | 40 |       | Wed | 28 | [Locks][36], [Part 2][37]                                  |           |
-| 40 |       | Wed | 29 | [Lock-based Concurrent Data Structures][38], [Part 2][39]  |           |
-| 40 | 02.10 | Fri | 30 | Condition Variables                    |           |
+| 40 |       | Wed | 29 | [Lock-based Concurrent Data Structures][38], [Part 2][39], [Part 3][40]  |           |
+| 40 | 02.10 | Fri | 30 | [Condition Variables][41], [Part 2][42]                    |           |
 | 41 | 07.10 | Wed | 31 | Semaphores                             |           |
 | 41 |       | Wed | 32 | Common Concurrency Problems            |           |
-| 41 |       | Wed | 33 | Event-based Concurrency                |           |
+| 41 |       | Wed | 33 | ~~Event-based Concurrency (Advanced)~~ |           |
 | 41 | 09.10 | Fri |    | Network Programming with gRPC in Go    | Lab 5     |
 | 42 | 14.10 | Wed | 10 | Multiprocessor Scheduling              |           |
 | 42 |       | Wed | 39 | Files and Directories                  |           |
@@ -91,4 +91,7 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 [36]: https://youtu.be/AiaWgIreiCY
 [37]: https://youtu.be/sCrWRgqzMGA
 [38]: https://youtu.be/AVESx9pPmU4
-[39]: https://not-recorded.yet
+[39]: https://youtu.be/QSVAsOZ6pd0
+[40]: https://youtu.be/NUSHciImsbA
+[41]: https://youtu.be/FP4vDkFWx3E
+[42]: https://youtu.be/vpcKfxtu2yo
