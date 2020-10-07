@@ -39,7 +39,7 @@ func TestConcurrentCounter(t *testing.T) {
 func BenchmarkNoLockCounter(b *testing.B) {
 	// does not use goroutines or locks
 	count := &counter{}
-	tc := totalCount * numCPUs
+	tc := totalCount * NumCPUs
 	for k := 0; k < b.N; k++ {
 		for j := 0; j < tc; j++ {
 			count.NoLockInc()
@@ -51,8 +51,8 @@ func BenchmarkConcurrentCounter(b *testing.B) {
 	count := &counter{}
 	var wg sync.WaitGroup
 	for k := 0; k < b.N; k++ {
-		wg.Add(numCPUs)
-		for j := 0; j < numCPUs; j++ {
+		wg.Add(NumCPUs)
+		for j := 0; j < NumCPUs; j++ {
 			go func() {
 				for i := 0; i < totalCount; i++ {
 					count.Inc()
@@ -68,8 +68,8 @@ func BenchmarkConcurrentNoLockCounter(b *testing.B) {
 	count := &counter{}
 	var wg sync.WaitGroup
 	for k := 0; k < b.N; k++ {
-		wg.Add(numCPUs)
-		for j := 0; j < numCPUs; j++ {
+		wg.Add(NumCPUs)
+		for j := 0; j < NumCPUs; j++ {
 			go func() {
 				for i := 0; i < totalCount; i++ {
 					count.NoLockInc()
