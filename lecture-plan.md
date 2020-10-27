@@ -41,7 +41,7 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 | 41 |       | Wed | 33 | ~~Event-based Concurrency (Advanced)~~                     |           |
 | 41 | 09.10 | Fri |    | Network Programming with gRPC in Go    | Lab 5     |
 | 42 | 14.10 | Wed | 10 | [Multiprocessor Scheduling][48]                            |           |
-| 42 |       | Wed | 39 | Files and Directories                  |           |
+| 42 |       | Wed | 39 | [Files and Directories][49], [Part 2][50]                  |           |
 | 42 | 16.10 | Fri | 40 | File System Implementation             |           |
 | 43 | 21.10 | Wed | 48 | Distributed Systems                    |           |
 | 43 |       | Wed | 49 | Sun's Network File System              |           |
@@ -101,3 +101,5 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 [46]: https://youtu.be/bpTqDjMcmjY
 [47]: https://youtu.be/6w2EfCZM7cg
 [48]: https://youtu.be/4SdyybS7q84
+[49]: https://youtu.be/GPNZ2Ztgmng
+[50]: https://youtu.be/Q9nhu6Yz1KE
