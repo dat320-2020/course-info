@@ -20,7 +20,9 @@ func main() {
 	grpcServer := grpc.NewServer()
 	pb.RegisterQuizServer(grpcServer, NewQuizServer())
 	fmt.Printf("Server is running at :8070.\n")
-	grpcServer.Serve(lis)
+	if err := grpcServer.Serve(lis); err != nil {
+		log.Fatal(err)
+	}
 }
 
 type QuizServer struct {
