@@ -39,7 +39,7 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 | 41 | 07.10 | Wed | 31 | [Semaphores][43], [Part 2][44], [Part 3][45]               |           |
 | 41 |       | Wed | 32 | [Common Concurrency Problems][46], [Part 2][47]            |           |
 | 41 |       | Wed | 33 | ~~Event-based Concurrency (Advanced)~~                     |           |
-| 41 | 09.10 | Fri |    | Network Programming with gRPC in Go    | Lab 5     |
+| 41 | 09.10 | Fri |    | [Network Programming with gRPC in Go][51], Parts: [2][52], [3][53], [4][54], [5][55]    | Lab 5     |
 | 42 | 14.10 | Wed | 10 | [Multiprocessor Scheduling][48]                            |           |
 | 42 |       | Wed | 39 | [Files and Directories][49], [Part 2][50]                  |           |
 | 42 | 16.10 | Fri | 40 | File System Implementation             |           |
@@ -103,3 +103,8 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 [48]: https://youtu.be/4SdyybS7q84
 [49]: https://youtu.be/GPNZ2Ztgmng
 [50]: https://youtu.be/Q9nhu6Yz1KE
+[51]: https://youtu.be/qKGNmmNSgHM
+[52]: https://youtu.be/v_rd8h-ox_Y
+[53]: https://youtu.be/a41gvwO5xKY
+[54]: https://youtu.be/NXqJr6s78Gs
+[55]: https://youtu.be/1dp1soZbHBs
