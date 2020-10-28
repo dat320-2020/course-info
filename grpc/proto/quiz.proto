@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package proto;
+option go_package = "course-info/grpc/proto";
+
+message Question {
+    int32 id = 1;
+    string questionText = 2;
+    repeated string answerText = 3;
+}
+
+message User {
+    string user = 1;
+}
+
+message ConfirmationResponse {
+    bool value = 1;
+}
+
+message VoteRequest {
+    int32 question_id = 1;
+    // vote is the index into the answerText slice
+    int32 vote = 2;
+    User user = 3;
+}
+
+message Void {}
+
+service Quiz {
+    rpc Next(stream Question) returns (Void);
+    rpc Signup(User) returns (stream Question);
+    rpc Vote(VoteRequest) returns (User);
+}
