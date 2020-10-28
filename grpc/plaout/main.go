@@ -1,14 +1,11 @@
 package main
 
 import (
-	"bufio"
 	"context"
 	pb "course-info/grpc/proto"
 	"flag"
 	"fmt"
 	"log"
-	"os"
-	"strconv"
 
 	"google.golang.org/grpc"
 )
@@ -19,8 +16,6 @@ func main() {
 		quizMaster = flag.Bool("master", false, "set if we want to be quiz master")
 	)
 	flag.Parse()
-
-	var scanner *bufio.Scanner = bufio.NewScanner(os.Stdin)
 
 	// if *userName == "" {
 	// 	log.Fatal("user name is required")
@@ -51,16 +46,11 @@ func main() {
 			fmt.Printf("---- A%d: %s\n", i, q)
 		}
 		fmt.Print("What's your answer: ")
-		scanner.Scan()
-		txt := scanner.Text()
-		if err := scanner.Err(); err != nil {
-			fmt.Println("Error reading text:", err)
-			continue
-		}
-		ansNum, _ := strconv.Atoi(txt)
+		var ansNum int32
+		fmt.Scanf("%d", ansNum)
 		vote := &pb.VoteRequest{
 			QuestionId: 1,
-			Vote:       int32(ansNum),
+			Vote:       ansNum,
 			User:       user,
 		}
 		winner, err := client.Vote(context.Background(), vote)
@@ -91,4 +81,5 @@ func quizMaxter(client pb.QuizClient) {
 }
 
 // var questionTable = []pb.Question{
+// 	{pb.Question{Id: 1, QuestionText: ""}},
 // }
