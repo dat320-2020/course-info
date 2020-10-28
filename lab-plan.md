@@ -9,7 +9,7 @@
 | 5 | [Memory Management][5] | Pass/fail | Automatic | Group | October 11 |
 | 6 | [Concurrency and Parallelism][6] | Pass/fail | TA Approval | Group | October 25 |
 | 7 | [Introduction to Docker][7] | Pass/fail | TA Approval | Individually | November 1 |
-| 8 | [Remote Procedure Calls and Common Interfaces][8] | Pass/fail | TA Approval | Group | November 13 |
+| 8 | [Distributed File System With gRPC][8] | Pass/fail | TA Approval | Group | November 13 |
 
 [1]: https://github.com/dat320-2020/assignments/tree/master/lab1
 [2]: https://github.com/dat320-2020/assignments/tree/master/lab2
