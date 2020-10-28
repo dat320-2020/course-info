@@ -13,35 +13,49 @@ import (
 )
 
 func main() {
-	lis, err := net.Listen("tcp", "10.192.65.85:8070")
+	lis, err := net.Listen("tcp", ":8070")
 	if err != nil {
 		log.Fatal(err)
 	}
 	grpcServer := grpc.NewServer()
 	pb.RegisterQuizServer(grpcServer, NewQuizServer())
-	fmt.Printf("Server is running at 10.192.65.85:8070.\n")
+	fmt.Printf("Server is running at :8070.\n")
 	grpcServer.Serve(lis)
 }
 
 type QuizServer struct {
 	signedUpUsers []*pb.User
+	questionChan  chan *pb.Question
 	pb.UnimplementedQuizServer
 }
 
 func NewQuizServer() *QuizServer {
 	return &QuizServer{
 		signedUpUsers: make([]*pb.User, 0),
+		questionChan:  make(chan *pb.Question, 10),
 	}
 }
 
-func (qs *QuizServer) Next(n pb.Quiz_NextServer) error {
-	return nil
+func (qs *QuizServer) Next(stream pb.Quiz_NextServer) error {
+	for {
+		question, err := stream.Recv()
+		if err != nil {
+			return status.Errorf(codes.NotFound, "Couldn't receive question from quiz master")
+		}
+		qs.questionChan <- question
+	}
 }
 
-func (qs *QuizServer) Signup(user *pb.User, s pb.Quiz_SignupServer) error {
+func (qs *QuizServer) Signup(user *pb.User, stream pb.Quiz_SignupServer) error {
 	qs.signedUpUsers = append(qs.signedUpUsers, user)
 	fmt.Println(qs.signedUpUsers)
-	return nil
+	for {
+		question := <-qs.questionChan
+		err := stream.Send(question)
+		if err != nil {
+			return status.Errorf(codes.NotFound, "Couldn't send question to %s", user.GetUser())
+		}
+	}
 }
 
 func (qs *QuizServer) Vote(ctx context.Context, vote *pb.VoteRequest) (*pb.User, error) {
