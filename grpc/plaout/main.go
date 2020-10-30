@@ -13,13 +13,14 @@ import (
 func main() {
 	var (
 		userName   = flag.String("user", "", "the user name")
-		quizMaster = flag.Bool("master", false, "set if we want to be quiz master")
+		quizMaster = flag.Bool("master", false, "set this to run as quiz master")
 	)
 	flag.Parse()
 
-	// if *userName == "" {
-	// 	log.Fatal("user name is required")
-	// }
+	if !*quizMaster && *userName == "" {
+		flag.Usage()
+		return
+	}
 
 	conn, err := grpc.Dial(":8070", grpc.WithInsecure())
 	if err != nil {
@@ -76,10 +77,24 @@ func quizMaxter(client pb.QuizClient) {
 		fmt.Println("Got an error:", err)
 	}
 
-	// for i, q := range questionTable {
-	// }
-}
+	questionTable := []*pb.Question{
+		{
+			Id:           1,
+			QuestionText: "",
+			AnswerText:   []string{"1a", "2a"},
+		},
+		{
+			Id:           2,
+			QuestionText: "Can we go home now?",
+			AnswerText:   []string{"Not yet", "Soon", "Never", "Tomorrow", "Yes"},
+		},
+	}
 
-// var questionTable = []pb.Question{
-// 	{pb.Question{Id: 1, QuestionText: ""}},
-// }
+	for _, q := range questionTable {
+		fmt.Printf("Starting question round %d\n", q.GetId())
+		err = stream.Send(x)
+		if err != nil {
+			fmt.Println("Got an error:", err)
+		}
+	}
+}
