@@ -42,7 +42,7 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 | 41 | 09.10 | Fri |    | [Network Programming with gRPC in Go][51], Parts: [2][52], [3][53], [4][54], [5][55]    | Lab 5     |
 | 42 | 14.10 | Wed | 10 | [Multiprocessor Scheduling][48]                            |           |
 | 42 |       | Wed | 39 | [Files and Directories][49], [Part 2][50]                  |           |
-| 42 | 16.10 | Fri | 40 | File System Implementation             |           |
+| 42 | 16.10 | Fri | 40 | [File System Implementation][56], [Part 2][57]             |           |
 | 43 | 21.10 | Wed | 48 | Distributed Systems                    |           |
 | 43 |       | Wed | 49 | Sun's Network File System              |           |
 | 43 | 23.10 | Fri |    |                                        | Lab 6     |
@@ -108,3 +108,5 @@ You may also be interested in this [YouTube playlist](https://www.youtube.com/pl
 [53]: https://youtu.be/a41gvwO5xKY
 [54]: https://youtu.be/NXqJr6s78Gs
 [55]: https://youtu.be/1dp1soZbHBs
+[56]: https://youtu.be/bbPAbbq4tEw
+[57]: https://youtu.be/mB7U5ETiiVs
