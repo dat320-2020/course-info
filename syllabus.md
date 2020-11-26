@@ -14,9 +14,10 @@ Chapters 36 and 37 are defined as *read on your own* and will *not* be subject t
 
 ## Syllabus also include
 
+- lecture videos
 - published slides and code snippets available on [course-info](https://github.com/dat320-2020/course-info/)
 - various videos and corresponding slides (see below) and
-- lab assignments 1-9.
+- lab assignments 1-8 and relevant material from the lab assignments
 
 ## Videos
 
