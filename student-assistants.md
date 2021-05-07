@@ -9,6 +9,7 @@ If you have questions about the positions or want to apply, please email me at [
 
 - Comfortable with Go programming, or want to become even more proficient
 - Applicants should be enthusiastic about sharing their knowledge
+- Include your grade transcript
 
 ## Summer Projects (Two Positions)
 
