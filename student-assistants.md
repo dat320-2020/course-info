@@ -66,6 +66,7 @@ Conditions:
 - Duration: 13 weeks from mid-August to late-November
 - Work hours: To be decided.
   We aim to avoid collisions with your study schedule, and some of the lab hours will probably be allocated to the 14-18 time slot.
-- Payment follows standard rates: (to be updated)
-  - Bachelor students: ltr X
-  - Master students: ltr Y
+- Payment follows standard rates:
+  - Bachelor students: ltr 25 (174 kr per hour)
+  - Master students: ltr 34 (193 kr per hour)
+
